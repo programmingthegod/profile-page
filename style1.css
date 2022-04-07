@@ -1,0 +1,48 @@
+.registration_details1{
+    display: inline-block;
+    position: absolute;
+    width: 220px;
+    height: 600px;
+    margin: 227px 75px 130px 75px;
+    color: red;
+    border: 20px solid white;
+    /* add the border from figma export */
+    border-image: url(./Union\ 1.svg) stretch;
+    /* pushes the image outside the border defined by 10px */
+    border-image-outset: 10px;
+    /* slices the image from all 4 sides, you can simply write 30 in place of these values depending upon the type of border-image used */
+    border-image-slice: 45 0 30 45 fill;
+}
+
+.title1 {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28.8px;
+    margin-right: 20px;
+    text-align: center;
+    color: rgba(200, 199, 255, 1);
+    
+}
+
+.heading3{
+    display: inline-block;
+    margin: -100px 100px 0px 150px ;
+}
+
+h4{
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.group_events1{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 29px;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #C8C7FF;
+    text-align: center;
+}

@@ -1,0 +1,351 @@
+/* user_details */
+
+body {
+    position: relative;
+    height: auto;
+    background: linear-gradient(270deg, #1D104D 0%, #08031A 100%);
+}
+
+.user_details {
+    display: inline-block;
+    position: relative;
+    height: 580px;
+    width: 408px;
+    margin-left: 100px;
+    margin-top: 227px;
+    margin-bottom: 130px;
+    border: 20px solid white;
+    /* add the border from figma export */
+    border-image: url(./Union\ 2.svg) stretch;
+    /* pushes the image outside the border defined by 10px */
+    border-image-outset: 10px;
+    /* slices the image from all 4 sides, you can simply write 30 in place of these values depending upon the type of border-image used */
+    border-image-slice: 45 0 30 45 fill;
+}
+
+.user_image {
+    margin: 55px 107px 10px;
+}
+
+.user_name {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.user_info {
+    /* position: absolute; */
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    margin: 18px 0px 10px 0px; 
+}
+
+.logout {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+
+.logout2 {
+    position: absolute;
+    top: 0;
+    left: 18%;
+    bottom: 30%;
+    color: white;
+    z-index: 4;
+    font-size: 20px;
+    font-family: 'Tomorrow';
+}
+
+
+
+/*Registration Details */
+
+.registration_details {
+    display: inline-block;
+    position: absolute;
+    width: 813px;
+    height: 583px;
+    margin: 227px 75px 130px 75px;
+    border: 20px solid white;
+    /* add the border from figma export */
+    border-image: url(./Union\ 1.svg) stretch;
+    /* pushes the image outside the border defined by 10px */
+    border-image-outset: 10px;
+    /* slices the image from all 4 sides, you can simply write 30 in place of these values depending upon the type of border-image used */
+    border-image-slice: 45 0 30 45 fill;
+}
+
+.title {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: rgba(200, 199, 255, 1);
+    ;
+}
+
+.heading1 {
+    display: inline-block;
+    margin: 0px 80px 0px 149px;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgba(6, 189, 252, 1);
+}
+
+h4 {
+    margin: 0;
+}
+
+.heading2 {
+    display: inline-block;
+    margin: 0px 80px 0px 80px;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgba(6, 189, 252, 1);
+    ;
+}
+
+.heading3 {
+    display: inline-block;
+    margin: 0px 80px 0px 80px;
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgba(6, 189, 252, 1);
+}
+
+.group_event {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: rgba(200, 199, 255, 1);
+}
+
+.details {
+    margin: 0;
+    color: rgba(200, 199, 255, 1);
+}
+
+h2 {
+    margin: 0 125px;
+    font-size: 20px;
+}
+
+hr {
+    width: 70%;
+    border: 2px solid #FAFAFD;
+    
+}
+.registration_details1{
+    display: none;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin: 0 0 0 0;
+    /* color: red; */
+    /* border: 0px solid white; */
+    /* add the border from figma export */
+    /* border-image: url(./Union\ 1.svg) stretch; */
+    /* pushes the image outside the border defined by 10px */
+    /* border-image-outset: 10px;*/
+    /* slices the image from all 4 sides, you can simply write 30 in place of these values depending upon the type of border-image used */
+    /* border-image-slice: 45 0 30 45 fill; */
+}
+
+
+.title1 {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 0;
+    font-size: 0px;
+    line-height: 0px;
+    margin-right: 0;
+    text-align: center;
+    
+}
+
+.heading3{
+    display: inline-block;
+    margin: 0 0 0 0 ;
+    font-size: 0px;
+}
+
+h4{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size: 0px;
+}
+.group_events1{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 0;
+    font-size: 0px;
+    line-height: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+@media screen  and (max-width:563px) {
+    .registration_details {
+        display: inline-block;
+        position: absolute;
+        width:0;
+        height: 0;
+        margin: 0 0 0 0;
+        border: 0px solid white;
+        /* add the border from figma export */
+        /* border-image: url(./Union\ 1.svg) stretch; */
+        /* pushes the image outside the border defined by 10px */
+        /* border-image-outset: 10px; */
+        /* slices the image from all 4 sides, you can simply write 30 in place of these values depending upon the type of border-image used */
+        /* border-image-slice: 45 0 30 45 fill; */
+    }
+    .title {
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 0;
+        font-size: 0;
+        line-height: 0;
+        text-align: center;
+      
+        ;
+    }
+    
+    .heading1 {
+       
+        
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 0;
+        font-size: 0;
+        line-height: 0;
+       
+    }
+    
+    h4 {
+       font-size: 0px;
+    }
+    
+    .heading2 {
+        display: inline-block;
+       
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight:0;
+        font-size:0;
+        line-height: 0;
+    }
+    
+    .heading3 {
+        display: inline-block;
+        margin: 0px 80px 0px 80px;
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 15px;
+        color: rgba(6, 189, 252, 1);
+    }
+    
+    .group_event {
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight:0;
+       font-size: 0;
+        line-height: 0;
+        text-align: center;
+       
+    }
+    
+    .details {
+        margin: 0;
+    
+    }
+    
+    h2 {
+        margin: 0;
+        font-size:0;
+    }
+    
+    hr {
+        width: 0%;
+        border: 0px solid #FAFAFD;
+        
+    }
+    .registration_details1{
+        display: inline-block;
+        position: absolute;
+        width: 440px;
+        height: 600px;
+        margin: 30px 30px 40px 30px;
+        color: red;
+        border: 20px solid white;
+        /* add the border from figma export */
+        border-image: url(./Union\ 1.svg) stretch;
+        /* pushes the image outside the border defined by 10px */
+        border-image-outset: 10px;
+        /* slices the image from all 4 sides, you can simply write 30 in place of these values depending upon the type of border-image used */
+        border-image-slice: 45 0 30 45 fill;
+    }
+    
+    .title1 {
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28.8px;
+        margin-right: 20px;
+        text-align: center;
+        color: rgba(200, 199, 255, 1);
+        z-index: 2;
+    }
+    
+    .heading3{
+        display: inline-block;
+        margin: -100px 100px 0px 150px ;
+        z-index: 2;
+    }
+    
+    h4{
+        margin-top:0px;
+        margin-bottom: 0px;
+        z-index: 2;
+    }
+    .group_events1{
+        font-family: 'Tomorrow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 29px;
+        margin-top: 30px;
+        margin-right: 20px;
+        color: #C8C7FF;
+        text-align: center;
+        z-index: 2;
+    }
+}
+
